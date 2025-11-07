@@ -5,7 +5,7 @@ import React from "react";
 const CommitmentSection = () => {
   return (
     <section className="flex flex-col sm:flex-row px-5 md:px-16 py-16 sm:py-28 gap-12 sm:gap-16">
-      <div className="w-full sm:w-1/2">
+      <div className="flex flex-col justify-center w-full sm:w-1/2">
         <p className="mb-3 sm:mb-3.5 md:mb-4">Sustainable</p>
         <h2 className="mb-5 sm:mb-5.5 md:mb-6 text-3xl sm:text-4xl">
           Our seafood commitment
