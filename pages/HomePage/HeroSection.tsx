@@ -1,11 +1,15 @@
 "use client";
-import { Carousel, CarouselContent, CarouselItem } from "@/components/Carousel";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+} from "@/components/ui/carousel";
 import { Button } from "@/components/ui/button";
 import Autoplay from "embla-carousel-autoplay";
 
 import Image from "next/image";
 
-const HeroImage = [
+const HERO_IMAGE = [
   { src: "/images/image-placeholder.png" },
   { src: "/images/image-placeholder.png" },
   { src: "/images/image-placeholder.png" },
@@ -28,7 +32,7 @@ const HeroSection = () => {
           className="h-full w-full"
         >
           <CarouselContent>
-            {HeroImage.map((item, idx) => (
+            {HERO_IMAGE.map((item, idx) => (
               <CarouselItem key={idx} className="relative h-full w-full">
                 <div className="relative h-full w-full">
                   <Image
