@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import React from "react";
 
 const CommitmentSection = () => {
   return (
@@ -10,7 +9,7 @@ const CommitmentSection = () => {
         <h2 className="mb-5 sm:mb-5.5 md:mb-6 text-3xl sm:text-4xl">
           Our seafood commitment
         </h2>
-        <p className="mb-5 sm:mb-5.5 md:mb-6">
+        <p className="mb-5 sm:mb-5.5 md:mb-6 sm:text-lg">
           We deliver premium fish with uncompromising quality. Our network spans
           the Indonesian archipelago, bringing the ocean&apos;s finest catch to
           global markets.
