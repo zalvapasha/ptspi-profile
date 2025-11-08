@@ -3,6 +3,8 @@ import HeroSection from "./HeroSection";
 import CommitmentSection from "./CommitmentSection";
 import CatalogSection from "./CatalogSection";
 import TrustSection from "./TrustSection";
+import CTASection from "./CTASection";
+import { Footer } from "@/components/Footer";
 
 const HomePage = () => {
   return (
@@ -12,7 +14,8 @@ const HomePage = () => {
       <CommitmentSection />
       <CatalogSection />
       <TrustSection />
-      <h1>HomePage</h1>
+      <CTASection />
+      <Footer />
     </>
   );
 };

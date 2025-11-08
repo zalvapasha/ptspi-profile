@@ -59,9 +59,8 @@ const HeroSection = () => {
             precision.
           </p>
           <div className="flex gap-4">
-            <Button variant={"outline"}>Contact</Button>
-
             <Button>Explore</Button>
+            <Button variant={"outline"}>Contact</Button>
           </div>
         </div>
       </div>

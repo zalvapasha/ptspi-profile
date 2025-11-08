@@ -3,6 +3,17 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Button } from "./ui/button";
+import {
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetDescription,
+  SheetFooter,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "./ui/sheet";
+import { IcMenu } from "@/assets/icons";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -39,6 +50,37 @@ const Navbar = () => {
         <Button size="lg" className="text-lg">
           Contact Us
         </Button>
+      </div>
+      <div className="flex sm:hidden">
+        <Sheet>
+          <SheetTrigger asChild>
+            <IcMenu />
+          </SheetTrigger>
+          <SheetContent>
+            <SheetHeader>
+              <SheetTitle>Menu</SheetTitle>
+              <SheetDescription>Navigation menu</SheetDescription>
+            </SheetHeader>
+            <div className="grid flex-1 auto-rows-min gap-6 px-4 mt-8">
+              <Link href="/" className="text-lg">
+                Products
+              </Link>
+              <Link href="/" className="text-lg">
+                About
+              </Link>
+              <Link href="/" className="text-lg">
+                Certificates
+              </Link>
+            </div>
+            <SheetFooter>
+              <SheetClose asChild>
+                <Button size="lg" className="w-full text-lg">
+                  Contact Us
+                </Button>
+              </SheetClose>
+            </SheetFooter>
+          </SheetContent>
+        </Sheet>
       </div>
     </div>
   );
