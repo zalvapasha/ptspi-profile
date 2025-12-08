@@ -14,9 +14,12 @@ import {
   SheetTrigger,
 } from "./ui/sheet";
 import { IcMenu } from "@/assets/icons";
+import { useRouter } from "next/navigation";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+
+  const router = useRouter();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -42,12 +45,18 @@ const Navbar = () => {
         isScrolled ? "bg-white" : "bg-transparent"
       }`}
     >
-      <h1 className="text-2xl font-bold">SananaPelangi</h1>
+      <Link href="/" aria-label="Go home" title="Company">
+        <h1 className="text-2xl font-bold">SananaPelangi</h1>
+      </Link>
       <div className="hidden sm:flex items-center gap-8 md:text-lg ">
         <Link href="/products">Products</Link>
         <Link href="/about">About</Link>
         <Link href="/">Certificates</Link>
-        <Button size="lg" className="text-lg">
+        <Button
+          size="lg"
+          onClick={() => router.push("contact-us")}
+          className="text-lg"
+        >
           Contact Us
         </Button>
       </div>
@@ -62,10 +71,10 @@ const Navbar = () => {
               <SheetDescription>Navigation menu</SheetDescription>
             </SheetHeader>
             <div className="grid flex-1 auto-rows-min gap-6 px-4 mt-8">
-              <Link href="/" className="text-lg">
+              <Link href="/products" className="text-lg">
                 Products
               </Link>
-              <Link href="/" className="text-lg">
+              <Link href="/about" className="text-lg">
                 About
               </Link>
               <Link href="/" className="text-lg">
@@ -74,7 +83,11 @@ const Navbar = () => {
             </div>
             <SheetFooter>
               <SheetClose asChild>
-                <Button size="lg" className="w-full text-lg">
+                <Button
+                  size="lg"
+                  onClick={() => router.push("contact-us")}
+                  className="w-full text-lg"
+                >
                   Contact Us
                 </Button>
               </SheetClose>

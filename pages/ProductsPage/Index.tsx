@@ -4,6 +4,7 @@ import HeaderSection from "./HeaderSection";
 import QualitySection from "./QualitySection";
 import CatalogSection from "./CatalogSection";
 import CTASection from "./CTASection";
+import ProductSpecsSection from "./ProductSpecsSection";
 
 const ProductsPage = () => {
   return (
@@ -11,6 +12,7 @@ const ProductsPage = () => {
       <Navbar />
       <HeaderSection />
       <CatalogSection />
+      <ProductSpecsSection />
       <QualitySection />
       <CTASection />
       <Footer />
