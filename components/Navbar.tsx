@@ -44,8 +44,8 @@ const Navbar = () => {
     >
       <h1 className="text-2xl font-bold">SananaPelangi</h1>
       <div className="hidden sm:flex items-center gap-8 md:text-lg ">
-        <Link href="/">Products</Link>
-        <Link href="/">About</Link>
+        <Link href="/products">Products</Link>
+        <Link href="/about">About</Link>
         <Link href="/">Certificates</Link>
         <Button size="lg" className="text-lg">
           Contact Us
