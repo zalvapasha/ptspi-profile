@@ -17,7 +17,14 @@ const InquireSection = () => {
         <div className="flex flex-col gap-4 mt-4">
           <div className="flex items-center gap-3">
             <IcMail />
-            <span className="underline">email@example.com</span>
+            <a
+              href="mailto:hello@sananapelangi.com"
+              aria-label="Our email"
+              title="Our email"
+              className="underline"
+            >
+              hello@sananapelangi.com
+            </a>
           </div>
           <div className="flex items-center gap-3">
             <IcPhone />
@@ -25,7 +32,15 @@ const InquireSection = () => {
           </div>
           <div className="flex items-center gap-3">
             <IcMapPin />
-            <span>123 Sample St, Sydney NSW 2000 AU</span>
+            <a
+              href="https://maps.app.goo.gl/2KBTKGYkpy6TNs2q7"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Our address"
+              title="Our address"
+            >
+              Pohea, Sanana Utara, Kepulauan Sula, Maluku Utara
+            </a>
           </div>
         </div>
       </div>
