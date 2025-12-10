@@ -6,8 +6,8 @@ const HeaderSection = () => {
     <section className="h-[50vh] relative flex items-center justify-center">
       {/* Background Image */}
       <Image
-        src="/images/image-placeholder.png"
-        alt="About PT Sanana Pelangi"
+        src="/images/header-products.png"
+        alt="Products PT Sanana Pelangi"
         fill
         className="object-cover object-center z-0"
         priority

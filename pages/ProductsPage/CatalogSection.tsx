@@ -5,37 +5,37 @@ const PRODUCTS = [
   {
     title: "Tuna Strips",
     category: "Chilled",
-    src: "/images/image-placeholder.png",
+    src: "/images/products/tuna-strips-1.png",
   },
   {
     title: "Tuna Cubes",
     category: "Frozen",
-    src: "/images/image-placeholder.png",
+    src: "/images/products/tuna-cubes-1.png",
   },
   {
     title: "Center Cut Loins",
     category: "Chilled",
-    src: "/images/image-placeholder.png",
+    src: "/images/products/center-cut-loins-1.png",
   },
   {
     title: "Tuna Saku",
     category: "Frozen",
-    src: "/images/image-placeholder.png",
+    src: "/images/products/tuna-saku-1.png",
   },
   {
     title: "Escolar",
     category: "Frozen",
-    src: "/images/image-placeholder.png",
+    src: "/images/products/eskolar-fillet-1.png",
   },
   {
     title: "Tuna Steaks",
     category: "Frozen",
-    src: "/images/image-placeholder.png",
+    src: "/images/products/tuna-steaks-1.png",
   },
   {
     title: "Mahi Portions",
     category: "Frozen",
-    src: "/images/image-placeholder.png",
+    src: "/images/products/mahi-portions-1.png",
   },
 ];
 

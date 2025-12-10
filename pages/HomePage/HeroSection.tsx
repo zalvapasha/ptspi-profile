@@ -10,9 +10,8 @@ import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
 
 const HERO_IMAGE = [
-  { src: "/images/image-placeholder.png" },
-  { src: "/images/image-placeholder.png" },
-  { src: "/images/image-placeholder.png" },
+  { src: "/images/header-home-1.png" },
+  { src: "/images/header-home-2.png" },
 ];
 
 const HeroSection = () => {
