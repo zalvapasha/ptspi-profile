@@ -51,7 +51,6 @@ const Navbar = () => {
       <div className="hidden sm:flex items-center gap-8 md:text-lg ">
         <Link href="/products">Products</Link>
         <Link href="/about">About</Link>
-        <Link href="/">Certificates</Link>
         <Button
           size="lg"
           onClick={() => router.push("contact-us")}

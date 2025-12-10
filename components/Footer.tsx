@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export const Footer = () => {
+const Footer = () => {
   return (
     <section className="px-5 py-12 sm:max-w-full">
       <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
@@ -138,3 +138,5 @@ export const Footer = () => {
     </section>
   );
 };
+
+export default Footer;
