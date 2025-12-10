@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import React from "react";
 
-export const OverviewSection = () => {
+const OverviewSection = () => {
   return (
     <section className="flex flex-col sm:flex-row ">
       <div className="flex flex-col justify-center w-full sm:w-1/2 px-5 sm:px-10 md:px-20 py-16 sm:py-28 gap-8">
@@ -61,3 +61,5 @@ export const OverviewSection = () => {
     </section>
   );
 };
+
+export default OverviewSection;
