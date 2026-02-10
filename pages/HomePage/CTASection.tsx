@@ -5,7 +5,7 @@ import React from "react";
 const CTASection = () => {
   return (
     <>
-      <section className=" text-center px-5 md:px-16 py-16 sm:py-28">
+      <section className=" text-center max-w-7xl mx-auto px-5 md:px-16 py-16 sm:py-28">
         <h1 className="mb-5 sm:mb-6 text-3xl sm:text-4xl">
           Ready to explore our products?
         </h1>
@@ -18,7 +18,7 @@ const CTASection = () => {
           <Button variant={"outline"}>Contact</Button>
         </div>
       </section>
-      <div className="relative aspect-video w-full">
+      <div className="relative aspect-video max-h-[500px] w-full">
         <Image
           src="/images/image-placeholder.png"
           alt="Photo"

@@ -9,8 +9,10 @@ const AboutPage = () => {
     <>
       <Navbar />
       <HeaderSection />
-      <OverviewSection />
-      <FacilitiesSection />
+      <div className="max-w-7xl mx-auto">
+        <OverviewSection />
+        <FacilitiesSection />
+      </div>
       <Footer />
     </>
   );

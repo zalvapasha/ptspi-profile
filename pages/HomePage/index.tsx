@@ -11,9 +11,12 @@ const HomePage = () => {
     <>
       <Navbar />
       <HeroSection />
+      <div className="max-w-7xl mx-auto">
       <CommitmentSection />
       <CatalogSection />
       <TrustSection />
+
+      </div>
       <CTASection />
       <Footer />
     </>

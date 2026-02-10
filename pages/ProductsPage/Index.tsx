@@ -11,9 +11,11 @@ const ProductsPage = () => {
     <>
       <Navbar />
       <HeaderSection />
-      <CatalogSection />
-      <ProductSpecsSection />
-      <QualitySection />
+      <div className="max-w-7xl mx-auto">
+        <CatalogSection />
+        <ProductSpecsSection />
+        <QualitySection />
+      </div>
       <CTASection />
       <Footer />
     </>

@@ -12,7 +12,7 @@ const HeroSection = () => {
       <div className="flex flex-col items-center justify-center  h-5/12 sm:h-7/12 md:h-2/3">
         <HeroCarousel images={HERO_IMAGE} />
       </div>
-      <div className="flex sm:flex-row flex-col items-center justify-center bg-gray-50  h-7/12 sm:h-5/12  md:h-1/3 px-5 md:px-16 sm:gap-10 gap-5">
+      <div className="flex max-w-7xl mx-auto sm:flex-row flex-col items-center justify-center   h-7/12 sm:h-5/12  md:h-1/3 px-5 md:px-16 sm:gap-10 gap-5">
         <h1 className=" text-3xl sm:text-4xl md:text-5xl">
           Connecting Kepulauan Sula&apos;s Ocean Harvest to Every Market{" "}
         </h1>

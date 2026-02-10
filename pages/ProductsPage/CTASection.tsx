@@ -18,7 +18,7 @@ const CTASection = () => {
           <Button variant={"outline"}>Download</Button>
         </div>
       </section>
-      <div className="relative aspect-video w-full">
+      <div className="relative aspect-video max-h-[500px] w-full">
         <Image
           src="/images/image-placeholder.png"
           alt="Photo"

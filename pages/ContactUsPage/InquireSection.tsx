@@ -5,7 +5,7 @@ import { InquiryForm } from "@/components/InquiryForm";
 
 const InquireSection = () => {
   return (
-    <section className="flex flex-col gap-12 sm:flex-row mt-20 px-5 md:px-16 py-16 md:py-28">
+    <section className="max-w-7xl mx-auto flex flex-col gap-12 sm:flex-row mt-20 px-5 md:px-16 py-16 md:py-28">
       <div className="flex flex-col gap-8 sm:w-1/2">
         <div>
           <h1 className="mb-4">Connect</h1>
