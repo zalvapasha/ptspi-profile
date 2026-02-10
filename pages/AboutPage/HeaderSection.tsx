@@ -6,7 +6,7 @@ const HeaderSection = () => {
     <section className="h-[50vh] relative flex items-center justify-center">
       {/* Background Image */}
       <Image
-        src="/images/header-about.png"
+        src="/images/header-about.webp"
         alt="About PT Sanana Pelangi"
         fill
         className="object-cover object-center z-0"

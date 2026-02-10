@@ -48,11 +48,10 @@ const TrustSection = () => {
       <div className="text-center">
         <p className="mb-3 sm:mb-4 font-semibold">Trust</p>
         <h1 className="mb-5 sm:mb-6 text-3xl sm:text-4xl">
-          Our industry leadership
+        Built on Care
         </h1>
         <p className="sm:text-lg">
-          Years of experience define our commitment to quality and sustainable
-          seafood sourcing.
+        Though newly established, our process is rooted in careful selection, hands-on quality control, and respect for sustainable seafood.
         </p>
         <div className="mt-6 flex items-center justify-center gap-x-4 md:mt-8">
           <Button title="Discover" variant="secondary">

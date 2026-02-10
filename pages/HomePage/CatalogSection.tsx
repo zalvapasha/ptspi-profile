@@ -2,23 +2,23 @@ import Image from "next/image";
 
 const Catalog = [
   {
-    type: "Tuna",
-    title: "Yellowfin tuna from deep waters",
+    type: "Yellowfin",
+    title: "Yellowfin tuna from North Maluku",
     desc: "Fresh and rich in flavor",
     img: "/images/image-placeholder.png",
   },
   {
-    type: "Snapper",
-    title: "Red snapper from coastal waters",
+    type: "Bigeye",
+    title: "Bigeye tuna from deep seas",
     desc: "Delicate and perfectly textured",
     img: "/images/image-placeholder.png",
   },
-  {
-    type: "Mackerel",
-    title: "Mackerel from Indonesian seas",
-    desc: "Lean and packed with nutrients",
-    img: "/images/image-placeholder.png",
-  },
+  // {
+  //   type: "Mackerel",
+  //   title: "Mackerel from Indonesian seas",
+  //   desc: "Lean and packed with nutrients",
+  //   img: "/images/image-placeholder.png",
+  // },
 ];
 
 const CatalogSection = () => {
@@ -27,10 +27,10 @@ const CatalogSection = () => {
       <div className="text-center mb-12 sm:mb-20">
         <p className="mb-3 font-semibold md:mb-4">Catch</p>
         <h1 className="mb-5 text-3xl sm:text-4xl md:mb-6">
-          Our premium fish selection
+          Our premium tuna selection
         </h1>
         <p className="sm:text-lg">
-          Explore our carefully curated seafood range
+          Explore our carefully curated tuna range
         </p>
       </div>
       <div className="flex flex-col sm:flex-row gap-6 sm:gap-8">
