@@ -5,39 +5,39 @@ import Image from "next/image";
 
 const TABS_CONTENT = [
   {
-    value: "certifications",
-    label: "Certifications",
-    badge: "Expertise",
-    title: "International seafood standards",
+    value: "standards",
+    label: "Cold Chain",
+    badge: "Storage",
+    title: "Maintained cold chain",
     description:
-      "We meet rigorous global quality benchmarks for seafood trading and distribution.",
+      "Proper chilling and freezing procedures are applied to keep the tuna at stable temperatures, protecting flavor and shelf life.",
     image: {
       src: "/images/image-placeholder.png",
-      alt: "Photo",
+      alt: "Cold storage",
+    },
+  },
+  {
+    value: "certifications",
+    label: "Handling",
+    badge: "Process",
+    title: "Careful handling from catch to processing",
+    description:
+      "Each tuna is handled immediately after landing and maintained under controlled temperatures to preserve freshness, color, and texture.",
+    image: {
+      src: "/images/image-placeholder.png",
+      alt: "Handling process",
     },
   },
   {
     value: "quality",
     label: "Quality",
-    badge: "Quality",
-    title: "Premium quality assurance",
+    badge: "Freshness",
+    title: "Consistent product quality",
     description:
-      "Our commitment to quality ensures the finest seafood products for our customers.",
+      "We inspect every fish for appearance, firmness, and condition to ensure clean meat and reliable grading across all tuna species.",
     image: {
       src: "/images/image-placeholder.png",
-      alt: "Quality Photo",
-    },
-  },
-  {
-    value: "standards",
-    label: "Global Standards",
-    badge: "Standards",
-    title: "World-class global standards",
-    description:
-      "We adhere to the highest international standards in seafood processing and distribution.",
-    image: {
-      src: "/images/image-placeholder.png",
-      alt: "Standards Photo",
+      alt: "Quality inspection",
     },
   },
 ];
@@ -49,13 +49,13 @@ const QualitySection = () => {
         <p className="mb-3 sm:mb-4 font-semibold">Quality</p>
         <div className="max-w-3xl mx-auto">
           <h1 className="mb-5 sm:mb-6 text-3xl sm:text-4xl">
-            Our processing and distribution network
+            Our processing and handling
           </h1>
           <p className="sm:text-lg">
-            Strategically located Quality along Indonesia&apos;s coastal regions
-            enable us to capture and process seafood with unmatched efficiency.
-            Our state-of-the-art infrastructure ensures every fish meets
-            international quality standards.
+            Our tuna is received from local fishing areas and handled through
+            controlled cleaning, grading, and storage procedures. Proper
+            temperature management is maintained during processing to help
+            preserve freshness and product condition.
           </p>
         </div>
         <div className="mt-6 flex items-center justify-center gap-x-4 md:mt-8">

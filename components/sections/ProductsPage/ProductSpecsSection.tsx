@@ -10,12 +10,13 @@ const ProductSpecsSection = () => {
         <div className="flex flex-col gap-4 items-start">
           <IcEarth className="min-w-12 min-h-12" />
           <h2 className="text-4xl font-bold">
-            Detailed specifications for premium seafood selections
+            Detailed specifications for premium selections
           </h2>
           <p className="text-lg">
-            Each fish is carefully selected and processed to meet international
-            quality standards. Our seafood comes directly from sustainable
-            fishing grounds in Indonesian waters.
+            Technical details for our tuna products, including handling method,
+            condition, and quality characteristics. All products are processed
+            with careful temperature control to maintain freshness, color, and
+            texture.
           </p>
           <div className=" flex flex-wrap items-center gap-4 ">
             <Button title="Learn more" variant="secondary">

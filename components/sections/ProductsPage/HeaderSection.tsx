@@ -15,13 +15,11 @@ const HeaderSection = () => {
       {/* Overlay */}
       {/* Content */}
       <div className="relative z-20 flex flex-col items-center justify-center h-full px-4 text-center">
-        <h1 className="text-3xl md:text-4xl font-bold mb-4">
-          Fresh seafood exports
-        </h1>
+        <h1 className="text-3xl md:text-4xl font-bold mb-4">Fresh Selection</h1>
         <p className="text-base md:text-lg max-w-2xl">
-          Premium fish selections sourced from the rich waters of Indonesia,
-          delivering high-quality frozen and fresh seafood to global markets
-          with precision and care.
+          A curated selection of premium tuna sourced from Indonesia’s rich
+          waters. We currently specialize exclusively in tuna species, handled
+          with care to preserve freshness, texture, and natural flavor.
         </p>
       </div>
     </section>

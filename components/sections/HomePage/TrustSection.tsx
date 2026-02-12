@@ -7,22 +7,22 @@ const TABS_CONTENT = [
   {
     value: "certifications",
     label: "Certifications",
-    badge: "Expertise",
-    title: "International seafood standards",
+    badge: "Certification",
+    title: "Certified handling",
     description:
-      "We meet rigorous global quality benchmarks for seafood trading and distribution.",
+      "Our facility has implemented HACCP-based handling procedures, helping us maintain safe and consistent tuna processing practices.",
     image: {
       src: "/images/image-placeholder.png",
-      alt: "Photo",
+      alt: "Certification Photo",
     },
   },
   {
     value: "quality",
     label: "Quality",
     badge: "Quality",
-    title: "Premium quality assurance",
+    title: "Careful handling",
     description:
-      "Our commitment to quality ensures the finest seafood products for our customers.",
+      "We focus on maintaining freshness from landing to shipment through proper icing, temperature control, and careful handling at every step.",
     image: {
       src: "/images/image-placeholder.png",
       alt: "Quality Photo",
@@ -30,11 +30,11 @@ const TABS_CONTENT = [
   },
   {
     value: "standards",
-    label: "Global Standards",
+    label: "Standards",
     badge: "Standards",
-    title: "World-class global standards",
+    title: "Consistent processing practices",
     description:
-      "We adhere to the highest international standards in seafood processing and distribution.",
+      "Our operations follow established handling and sanitation procedures to support reliable supply and product condition for our partners.",
     image: {
       src: "/images/image-placeholder.png",
       alt: "Standards Photo",
@@ -47,11 +47,10 @@ const TrustSection = () => {
     <section className="px-5 md:px-16 py-16 sm:py-28">
       <div className="text-center">
         <p className="mb-3 sm:mb-4 font-semibold">Trust</p>
-        <h1 className="mb-5 sm:mb-6 text-3xl sm:text-4xl">
-        Built on Care
-        </h1>
+        <h1 className="mb-5 sm:mb-6 text-3xl sm:text-4xl">Built on Care</h1>
         <p className="sm:text-lg">
-        Though newly established, our process is rooted in careful selection, hands-on quality control, and respect for sustainable seafood.
+          Though newly established, our process is rooted in careful selection,
+          hands-on quality control, and responsible tuna sourcing.
         </p>
         <div className="mt-6 flex items-center justify-center gap-x-4 md:mt-8">
           <Button title="Discover" variant="secondary">

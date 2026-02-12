@@ -5,39 +5,39 @@ import Image from "next/image";
 
 const TABS_CONTENT = [
   {
-    value: "certifications",
-    label: "Certifications",
-    badge: "Expertise",
-    title: "International seafood standards",
+    value: "facility",
+    label: "Facility",
+    badge: "Site",
+    title: "Operational facility",
     description:
-      "We meet rigorous global quality benchmarks for seafood trading and distribution.",
+      "We operate from a working site used for handling and preparing tuna products.",
     image: {
       src: "/images/image-placeholder.png",
-      alt: "Photo",
+      alt: "Facility",
     },
   },
   {
-    value: "quality",
-    label: "Quality",
-    badge: "Quality",
-    title: "Premium quality assurance",
+    value: "workspace",
+    label: "Workspace",
+    badge: "Area",
+    title: "Working areas",
     description:
-      "Our commitment to quality ensures the finest seafood products for our customers.",
+      "Designated areas are available for product handling and organization.",
     image: {
       src: "/images/image-placeholder.png",
-      alt: "Quality Photo",
+      alt: "Workspace",
     },
   },
   {
-    value: "standards",
-    label: "Global Standards",
-    badge: "Standards",
-    title: "World-class global standards",
+    value: "storage",
+    label: "Storage",
+    badge: "Cold Storage",
+    title: "Temperature-controlled storage",
     description:
-      "We adhere to the highest international standards in seafood processing and distribution.",
+      "Cold storage is used to keep tuna under stable temperature conditions.",
     image: {
       src: "/images/image-placeholder.png",
-      alt: "Standards Photo",
+      alt: "Cold storage",
     },
   },
 ];
@@ -52,10 +52,10 @@ const FacilitiesSection = () => {
             Our processing and distribution network
           </h1>
           <p className="sm:text-lg">
-            Strategically located facilities along Indonesia&apos;s coastal
-            regions enable us to capture and process seafood with unmatched
-            efficiency. Our state-of-the-art infrastructure ensures every fish
-            meets international quality standards.
+            Our operations are based at a dedicated site supporting the handling
+            and storage of tuna products. The facility provides organized
+            working areas and temperature-controlled storage, allowing products
+            to be maintained in stable condition from arrival to dispatch.
           </p>
         </div>
         <div className="mt-6 flex items-center justify-center gap-x-4 md:mt-8">

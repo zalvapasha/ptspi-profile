@@ -10,11 +10,12 @@ const OverviewSection = () => {
         <div className="flex gap-6 items-start">
           <IcEarth className="min-w-12 min-h-12" />
           <div className="flex flex-col gap-4 sm:max-w-md">
-            <h2 className="text-2xl ">Our seafood journey</h2>
+            <h2 className="text-2xl ">About the Company</h2>
             <p>
-              Founded in the heart of Indonesia&apos;s maritime landscape, PT
-              Sanana Pelangi emerged from a deep passion for sustainable seafood
-              trading and ocean preservation.
+              PT Sanana Pelangi Indonesia is a tuna handling and supply company
+              based in Indonesia. We work with local fishing communities to
+              source yellowfin, bigeye, and albacore tuna from nearby fishing
+              grounds.
             </p>
             <Button className="w-fit px-0" title="Learn more" variant="link">
               Learn more
@@ -24,11 +25,11 @@ const OverviewSection = () => {
         <div className="flex gap-6 items-start">
           <IcEarth className="min-w-12 min-h-12" />
           <div className="flex flex-col gap-4 sm:max-w-md">
-            <h2 className="text-2xl ">Our seafood journey</h2>
+            <h2 className="text-2xl ">Our Operations</h2>
             <p>
-              Founded in the heart of Indonesia&apos;s maritime landscape, PT
-              Sanana Pelangi emerged from a deep passion for sustainable seafood
-              trading and ocean preservation.
+              After landing, the tuna is cleaned, graded, and stored under
+              controlled temperatures. We focus on proper handling practices to
+              maintain product condition, color, and texture.
             </p>
             <Button className="w-fit px-0" title="Learn more" variant="link">
               Learn more
@@ -38,11 +39,11 @@ const OverviewSection = () => {
         <div className="flex gap-6 items-start">
           <IcEarth className="min-w-12 min-h-12" />
           <div className="flex flex-col gap-4 sm:max-w-md">
-            <h2 className="text-2xl ">Our seafood journey</h2>
+            <h2 className="text-2xl ">Our Approach</h2>
             <p>
-              Founded in the heart of Indonesia&apos;s maritime landscape, PT
-              Sanana Pelangi emerged from a deep passion for sustainable seafood
-              trading and ocean preservation.
+              We emphasize consistent handling, clear product grading, and
+              transparent communication with buyers. Our goal is to provide
+              reliable tuna products with dependable quality.
             </p>
             <Button className="w-fit px-0" title="Learn more" variant="link">
               Learn more

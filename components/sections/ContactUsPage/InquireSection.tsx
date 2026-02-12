@@ -11,7 +11,7 @@ const InquireSection = () => {
           <h1 className="mb-4">Connect</h1>
           <h2 className="text-5xl mb-6">Contact Us</h2>
           <p className="text-lg">
-            Send us your questions about our seafood trading services
+            We welcome your questions and product inquiries
           </p>
         </div>
         <div className="flex flex-col gap-4 mt-4">
