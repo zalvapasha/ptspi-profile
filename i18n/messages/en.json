@@ -1,0 +1,37 @@
+{
+  "Navbar": {
+    "products": "Products",
+    "about-us": "About Us",
+    "contact-us": "Contact Us"
+  },
+  "footer": {
+    "about": {
+      "description-1": "We connect Sanana's rich ocean harvest with partners around the world, supplying premium tuna with sustainable, traceable practices.",
+      "description-2": "From sourcing to export, our team keeps quality, safety, and timely delivery at the center of every shipment."
+    },
+    "contacts-title": "Contacts",
+    "phone-label": "Phone:",
+    "email-label": "Email:",
+    "address-label": "Address:",
+    "social-title": "Social",
+    "social-description": "Follow our journey as we grow Indonesia's seafood exports and strengthen partnerships across the globe.",
+    "copyright": "© Copyright 2025 PT Sanana Pelangi. All rights reserved.",
+    "links": {
+      "products": "Products",
+      "about": "About",
+      "contact": "Contact"
+    }
+  },
+  "HomePage": {
+    "hero-section": {
+      "title": "Connecting Kepulauan Sula's Ocean Harvest to Every Market",
+      "description": "We supply fresh and processed tuna that meets international standards. Our focus is delivering quality products with care and precision.",
+      "explore-button": "Explore",
+      "contact-button": "Contact"
+    },
+    "commitment-section": {},
+    "catalog-section": {},
+    "trust-section": {},
+    "cta-section": {}
+  }
+}

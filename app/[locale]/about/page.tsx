@@ -1,10 +1,10 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import HeaderSection from "./HeaderSection";
-import FacilitiesSection from "./FacilitiesSection";
-import OverviewSection from "./OverviewSection";
+import HeaderSection from "@/components/sections/AboutPage/HeaderSection";
+import FacilitiesSection from "@/components/sections/AboutPage/FacilitiesSection";
+import OverviewSection from "@/components/sections/AboutPage/OverviewSection";
 
-const AboutPage = () => {
+export default function About() {
   return (
     <>
       <Navbar />
@@ -16,6 +16,4 @@ const AboutPage = () => {
       <Footer />
     </>
   );
-};
-
-export default AboutPage;
+}

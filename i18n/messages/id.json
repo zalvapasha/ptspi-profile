@@ -1,0 +1,37 @@
+{
+  "Navbar": {
+    "products": "Produk",
+    "about-us": "Tentang Kami",
+    "contact-us": "Kontak Kami"
+  },
+  "footer": {
+    "about": {
+      "description-1": "Kami menghubungkan hasil laut kaya dari Sanana dengan mitra di seluruh dunia, memasok tuna premium dengan praktik berkelanjutan dan dapat ditelusuri.",
+      "description-2": "Dari pengadaan hingga ekspor, tim kami menjaga kualitas, keamanan, dan ketepatan waktu pengiriman sebagai fokus utama di setiap pengiriman."
+    },
+    "contacts-title": "Kontak",
+    "phone-label": "Telepon:",
+    "email-label": "Email:",
+    "address-label": "Alamat:",
+    "social-title": "Sosial",
+    "social-description": "Ikuti perjalanan kami saat kami mengembangkan ekspor hasil laut Indonesia dan memperkuat kemitraan di seluruh dunia.",
+    "copyright": "© Hak Cipta 2025 PT Sanana Pelangi. Seluruh hak dilindungi.",
+    "links": {
+      "products": "Produk",
+      "about": "Tentang",
+      "contact": "Kontak"
+    }
+  },
+  "HomePage": {
+    "hero-section": {
+      "title": "Menghubungkan Hasil Laut Kepulauan Sula ke Setiap Pasar",
+      "description": "Kami menyediakan tuna segar dan olahan yang memenuhi standar internasional. Fokus kami adalah memberikan produk berkualitas dengan perhatian dan ketelitian.",
+      "explore-button": "Jelajahi",
+      "contact-button": "Kontak"
+    },
+    "commitment-section": {},
+    "catalog-section": {},
+    "trust-section": {},
+    "cta-section": {}
+  }
+}

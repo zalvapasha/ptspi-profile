@@ -1,9 +1,8 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import React from "react";
-import InquireSection from "./InquireSection";
+import InquireSection from "@/components/sections/ContactUsPage/InquireSection";
 
-const ContactUsPage = () => {
+export default function ContactUs() {
   return (
     <>
       <Navbar />
@@ -11,6 +10,4 @@ const ContactUsPage = () => {
       <Footer />
     </>
   );
-};
-
-export default ContactUsPage;
+}

@@ -1,6 +1,8 @@
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 const Footer = () => {
+  const t = useTranslations("footer");
   return (
     <section className="max-w-7xl mx-auto px-5 py-12 ">
       <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
@@ -16,23 +18,18 @@ const Footer = () => {
             </span>
           </Link>
           <div className="mt-6 lg:max-w-sm">
-            <p className="text-sm text-gray-800">
-              We connect Sanana&apos;s rich ocean harvest with partners around
-              the world, supplying premium tuna with sustainable, traceable
-              practices.
-            </p>
+            <p className="text-sm text-gray-800">{t("about.description-1")}</p>
             <p className="mt-4 text-sm text-gray-800">
-              From sourcing to export, our team keeps quality, safety, and
-              timely delivery at the center of every shipment.
+              {t("about.description-2")}
             </p>
           </div>
         </div>
         <div className="space-y-2 text-sm">
           <p className="text-base font-bold tracking-wide text-gray-900">
-            Contacts
+            {t("contacts-title")}
           </p>
           <div className="flex">
-            <p className="mr-1 text-gray-800">Phone:</p>
+            <p className="mr-1 text-gray-800">{t("phone-label")}</p>
             <a
               href="tel:+15550000000"
               aria-label="Our phone"
@@ -43,7 +40,7 @@ const Footer = () => {
             </a>
           </div>
           <div className="flex">
-            <p className="mr-1 text-gray-800">Email:</p>
+            <p className="mr-1 text-gray-800">{t("email-label")}</p>
             <a
               href="mailto:hello@sananapelangi.com"
               aria-label="Our email"
@@ -54,7 +51,7 @@ const Footer = () => {
             </a>
           </div>
           <div className="flex">
-            <p className="mr-1 text-gray-800">Address:</p>
+            <p className="mr-1 text-gray-800">{t("address-label")}</p>
             <a
               href="https://maps.app.goo.gl/2KBTKGYkpy6TNs2q7"
               target="_blank"
@@ -69,7 +66,7 @@ const Footer = () => {
         </div>
         <div>
           <span className="text-base font-bold tracking-wide text-gray-900">
-            Social
+            {t("social-title")}
           </span>
           <div className="flex items-center mt-1 space-x-3">
             <a
@@ -108,29 +105,26 @@ const Footer = () => {
             </a>
           </div>
           <p className="mt-4 text-sm text-gray-500">
-            Follow our journey as we grow Indonesia&apos;s seafood exports and
-            strengthen partnerships across the globe.
+            {t("social-description")}
           </p>
         </div>
       </div>
       <div className="flex flex-col-reverse justify-between pt-5 border-t lg:flex-row">
-        <p className="text-sm text-gray-600">
-          © Copyright 2025 PT Sanana Pelangi. All rights reserved.
-        </p>
+        <p className="text-sm text-gray-600">{t("copyright")}</p>
         <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
           <li>
             <Link href="/products" className="text-sm text-gray-600">
-              Products
+              {t("links.products")}
             </Link>
           </li>
           <li>
             <Link href="/about" className="text-sm text-gray-600">
-              About
+              {t("links.about")}
             </Link>
           </li>
           <li>
             <Link href="/contact-us" className="text-sm text-gray-600">
-              Contact
+              {t("links.contact")}
             </Link>
           </li>
         </ul>

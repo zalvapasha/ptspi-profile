@@ -1,37 +1,7 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-export const metadata: Metadata = {
-  title: "Sanana Pelangi Indonesia",
-  description:
-    "Sanana Pelangi Indonesia delivers premium, sustainably sourced seafood with a commitment to quality and international standards. Explore our expert seafood trading, distribution, and world-class service.",
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased `}
-      >
-        {/* <div className="max-w-7xl mx-auto"> */}
-          {children}
-          {/* </div> */}
-      </body>
-    </html>
-  );
+  return children;
 }
