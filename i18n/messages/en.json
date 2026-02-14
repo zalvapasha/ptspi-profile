@@ -29,9 +29,84 @@
       "explore-button": "Explore",
       "contact-button": "Contact"
     },
-    "commitment-section": {},
-    "catalog-section": {},
-    "trust-section": {},
-    "cta-section": {}
+    "commitment-section": {
+      "tag": "Sustainable",
+      "title": "Our commitment",
+      "description": "We deliver premium tuna with uncompromising quality. Our network spans the North Maluku archipelago, bringing Sula's finest catch to global markets.",
+      "buttons": {
+        "learnMore": "Learn more",
+        "connect": "Connect"
+      },
+      "imageAlt": "Photo"
+    },
+    "catalog-section": {
+      "tag": "Catch",
+      "title": "Our premium tuna selection",
+      "subtitle": "Explore our carefully curated tuna range",
+      "fish": {
+        "yellowfin": {
+          "type": "Yellowfin",
+          "title": "A fast-growing tropical tuna commonly found in Indonesian waters",
+          "desc": "Firm, bright red flesh with a clean flavor, excellent for sashimi, steaks, or grilling",
+          "alt": "Yellowfin tuna"
+        },
+        "bigeye": {
+          "type": "Bigeye",
+          "title": "A deep-water tuna species known for its high fat content",
+          "desc": "Rich, buttery meat with a soft texture, highly prized for premium sashimi and sushi",
+          "alt": "Bigeye tuna"
+        },
+        "albacore": {
+          "type": "Albacore",
+          "title": "A migratory tuna species recognized by its long pectoral fins",
+          "desc": "Light pink to white flesh with a mild flavor and tender flakes, ideal for searing or canning",
+          "alt": "Albacore tuna"
+        }
+      }
+    },
+    "trust-section": {
+      "tag": "Trust",
+      "title": "Built on Care",
+      "description": "Though newly established, our process is rooted in careful selection, hands-on quality control, and responsible tuna sourcing",
+
+      "buttons": {
+        "discover": "Discover",
+        "details": "Details",
+        "learnMore": "Learn more",
+        "verify": "Verify"
+      },
+      "tabs": {
+        "certifications": {
+          "label": "Certifications",
+          "badge": "Certification",
+          "title": "Certified handling",
+          "description": "Our facility has implemented HACCP-based handling procedures, helping us maintain safe and consistent tuna processing practices.",
+          "imageAlt": "Certification process"
+        },
+        "quality": {
+          "label": "Quality",
+          "badge": "Quality",
+          "title": "Careful handling",
+          "description": "We maintain freshness from landing to shipment through proper icing, temperature control, and careful handling at every step.",
+          "imageAlt": "Quality control"
+        },
+        "standards": {
+          "label": "Standards",
+          "badge": "Standards",
+          "title": "Consistent processing practices",
+          "description": "Our operations follow established sanitation and handling procedures to support reliable supply and product condition for partners.",
+          "imageAlt": "Processing standards"
+        }
+      }
+    },
+    "cta-section": {
+      "title": "Ready to explore our products?",
+      "description": "Connect with our team to discuss your tuna requirements and discover our premium selection.",
+      "buttons": {
+        "explore": "Explore",
+        "contact": "Contact"
+      },
+      "imageAlt": "Photo"
+    }
   }
 }

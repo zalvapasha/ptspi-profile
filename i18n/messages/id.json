@@ -29,9 +29,86 @@
       "explore-button": "Jelajahi",
       "contact-button": "Kontak"
     },
-    "commitment-section": {},
-    "catalog-section": {},
-    "trust-section": {},
-    "cta-section": {}
+    "commitment-section": {
+      "tag": "Berkelanjutan",
+      "title": "Komitmen kami",
+      "description": "Kami menghadirkan tuna premium dengan kualitas tanpa kompromi. Jaringan kami mencakup kepulauan Maluku Utara, menghadirkan hasil tangkapan terbaik Sula ke pasar global.",
+      "buttons": {
+        "learnMore": "Pelajari lebih lanjut",
+        "connect": "Hubungi kami"
+      },
+      "imageAlt": "Photo"
+    },
+
+    "catalog-section": {
+      "tag": "Hasil Tangkapan",
+      "title": "Pilihan tuna premium kami",
+      "subtitle": "Jelajahi ragam tuna pilihan kami",
+      "fish": {
+        "yellowfin": {
+          "type": "Yellowfin",
+          "title": "Tuna tropis dengan pertumbuhan cepat yang umum ditemukan di perairan Indonesia",
+          "desc": "Daging merah cerah yang padat dengan rasa bersih, sangat cocok untuk sashimi, steak, maupun panggangan",
+          "alt": "Tuna Yellowfin"
+        },
+        "bigeye": {
+          "type": "Bigeye",
+          "title": "Spesies tuna laut dalam yang dikenal memiliki kandungan lemak tinggi",
+          "desc": "Daging kaya dan lembut dengan tekstur halus, sangat diminati untuk sashimi dan sushi premium",
+          "alt": "Tuna Bigeye"
+        },
+        "albacore": {
+          "type": "Albacore",
+          "title": "Tuna migrasi yang mudah dikenali dari sirip dada yang panjang",
+          "desc": "Daging berwarna merah muda pucat hingga putih dengan rasa ringan dan tekstur lembut, ideal untuk searing maupun pengalengan",
+          "alt": "Tuna Albacore"
+        }
+      }
+    },
+    "trust-section": {
+      "tag": "Kepercayaan",
+      "title": "Dibangun dengan Kepedulian",
+      "description": "Meskipun baru berdiri, proses kami berlandaskan seleksi bahan baku yang cermat, pengawasan kualitas langsung, dan sumber tuna yang bertanggung jawab",
+
+      "buttons": {
+        "discover": "Pelajari",
+        "details": "Detail",
+        "learnMore": "Pelajari lebih lanjut",
+        "verify": "Verifikasi"
+      },
+
+      "tabs": {
+        "certifications": {
+          "label": "Sertifikasi",
+          "badge": "Sertifikasi",
+          "title": "Penanganan tersertifikasi",
+          "description": "Fasilitas kami menerapkan prosedur penanganan berbasis HACCP untuk menjaga keamanan dan konsistensi proses pengolahan tuna.",
+          "imageAlt": "Proses sertifikasi"
+        },
+        "quality": {
+          "label": "Kualitas",
+          "badge": "Kualitas",
+          "title": "Penanganan yang cermat",
+          "description": "Kami menjaga kesegaran sejak pendaratan hingga pengiriman melalui pemberian es yang tepat, kontrol suhu, dan penanganan hati-hati di setiap tahap.",
+          "imageAlt": "Pengendalian kualitas"
+        },
+        "standards": {
+          "label": "Standar",
+          "badge": "Standar",
+          "title": "Proses yang konsisten",
+          "description": "Operasional kami mengikuti prosedur sanitasi dan penanganan yang terstandarisasi untuk menjaga keandalan suplai dan kondisi produk.",
+          "imageAlt": "Standar pengolahan"
+        }
+      }
+    },
+    "cta-section": {
+      "title": "Siap menjelajahi produk kami?",
+      "description": "Hubungi tim kami untuk mendiskusikan kebutuhan tuna Anda dan temukan pilihan produk premium kami.",
+      "buttons": {
+        "explore": "Lihat produk",
+        "contact": "Hubungi kami"
+      },
+      "imageAlt": "Suplai dan pengolahan tuna"
+    }
   }
 }
