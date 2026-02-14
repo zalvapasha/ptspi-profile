@@ -2,68 +2,39 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
 import React from "react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 const TABS_CONTENT = [
   {
     value: "standards",
-    label: "Cold Chain",
-    badge: "Storage",
-    title: "Maintained cold chain",
-    description:
-      "Proper chilling and freezing procedures are applied to keep the tuna at stable temperatures, protecting flavor and shelf life.",
-    image: {
-      src: "/images/image-placeholder.png",
-      alt: "Cold storage",
-    },
+    image: "/images/image-placeholder.png",
   },
   {
     value: "certifications",
-    label: "Handling",
-    badge: "Process",
-    title: "Careful handling from catch to processing",
-    description:
-      "Each tuna is handled immediately after landing and maintained under controlled temperatures to preserve freshness, color, and texture.",
-    image: {
-      src: "/images/image-placeholder.png",
-      alt: "Handling process",
-    },
+    image: "/images/image-placeholder.png",
   },
   {
     value: "quality",
-    label: "Quality",
-    badge: "Freshness",
-    title: "Consistent product quality",
-    description:
-      "We inspect every fish for appearance, firmness, and condition to ensure clean meat and reliable grading across all tuna species.",
-    image: {
-      src: "/images/image-placeholder.png",
-      alt: "Quality inspection",
-    },
+    image: "/images/image-placeholder.png",
   },
 ];
 
 const QualitySection = () => {
+  const t = useTranslations("ProductsPage.quality-section");
   return (
     <section className="px-5 md:px-16 py-16 sm:py-28">
       <div className="text-center">
-        <p className="mb-3 sm:mb-4 font-semibold">Quality</p>
+        <p className="mb-3 sm:mb-4 font-semibold">{t("badge")}</p>
         <div className="max-w-3xl mx-auto">
-          <h1 className="mb-5 sm:mb-6 text-3xl sm:text-4xl">
-            Our processing and handling
-          </h1>
-          <p className="sm:text-lg">
-            Our tuna is received from local fishing areas and handled through
-            controlled cleaning, grading, and storage procedures. Proper
-            temperature management is maintained during processing to help
-            preserve freshness and product condition.
-          </p>
+          <h1 className="mb-5 sm:mb-6 text-3xl sm:text-4xl">{t("title")}</h1>
+          <p className="sm:text-lg">{t("description")}</p>
         </div>
         <div className="mt-6 flex items-center justify-center gap-x-4 md:mt-8">
-          <Button title="Discover" variant="secondary">
-            Discover
+          <Button title={t("buttons.discover")} variant="secondary">
+            {t("buttons.discover")}
           </Button>
-          <Button title="Details" variant="link">
-            Details
+          <Button title={t("buttons.details")} variant="link">
+            {t("buttons.details")}
           </Button>
         </div>
       </div>
@@ -74,7 +45,7 @@ const QualitySection = () => {
               <TabsList className="w-full flex max-w-80 ">
                 {TABS_CONTENT.map((tab) => (
                   <TabsTrigger key={tab.value} value={tab.value}>
-                    {tab.label}
+                    {t(`tabs.${tab.value}.label`)}
                   </TabsTrigger>
                 ))}
               </TabsList>
@@ -83,26 +54,28 @@ const QualitySection = () => {
               <TabsContent key={tab.value} value={tab.value}>
                 <section className="flex flex-col sm:flex-row gap-12 sm:gap-16">
                   <div className="flex flex-col justify-center w-full sm:w-1/2">
-                    <p className="mb-3 sm:mb-3.5 md:mb-4">{tab.badge}</p>
+                    <p className="mb-3 sm:mb-3.5 md:mb-4">
+                      {t(`tabs.${tab.value}.badge`)}
+                    </p>
                     <h2 className="mb-5 sm:mb-5.5 md:mb-6 text-3xl sm:text-4xl">
-                      {tab.title}
+                      {t(`tabs.${tab.value}.title`)}
                     </h2>
                     <p className="mb-5 sm:mb-5.5 md:mb-6 sm:text-lg">
-                      {tab.description}
+                      {t(`tabs.${tab.value}.description`)}
                     </p>
                     <div className=" flex flex-wrap items-center gap-4 ">
                       <Button title="Learn more" variant="secondary">
-                        Learn more
+                        {t("buttons.learnMore")}
                       </Button>
                       <Button title="Connect" variant="link">
-                        Verify
+                        {t("buttons.verify")}
                       </Button>
                     </div>
                   </div>
                   <div className="relative aspect-square w-full sm:w-1/2">
                     <Image
-                      src={tab.image.src}
-                      alt={tab.image.alt}
+                      src={tab.image}
+                      alt={t(`tabs.${tab.value}.imageAlt`)}
                       fill
                       className="object-cover object-center"
                     />

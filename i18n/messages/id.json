@@ -110,5 +110,73 @@
       },
       "imageAlt": "Suplai dan pengolahan tuna"
     }
+  },
+  "ProductsPage": {
+    "hero-section": {
+      "title": "Pilihan Segar",
+      "description": "Pilihan tuna premium yang bersumber dari Kepulauan Sula. Saat ini kami berfokus pada spesies tuna dengan penanganan yang cermat untuk menjaga kesegaran, tekstur, dan cita rasa alami.",
+      "imageAlt": "Produk tuna PT Sanana Pelangi"
+    },
+    "catalog-section": {
+      "tag": "Produk",
+      "title": "Katalog produk kami",
+      "description": "Produk tuna yang diproses dengan penanganan yang baik dan siap didistribusikan ke restoran, retail, maupun pembeli internasional."
+    },
+    "product-specs-section": {
+      "title": "Spesifikasi detail untuk pilihan premium",
+      "description": "Informasi teknis mengenai produk tuna kami, termasuk metode penanganan, kondisi produk, dan karakteristik mutu. Setiap produk diproses dengan pengendalian suhu yang ketat untuk menjaga kesegaran, warna alami, dan tekstur.",
+      "buttons": {
+        "learnMore": "Pelajari lebih lanjut",
+        "download": "Unduh"
+      },
+      "imageAlt": "Photo"
+    },
+    "quality-section": {
+      "badge": "Kualitas",
+      "title": "Proses dan penanganan kami",
+      "description": "Tuna kami diterima dari area penangkapan lokal dan ditangani melalui proses pembersihan, grading, dan penyimpanan yang terkontrol. Pengelolaan suhu dijaga selama proses untuk membantu mempertahankan kesegaran dan kondisi produk.",
+
+      "buttons": {
+        "discover": "Pelajari",
+        "details": "Detail",
+        "learnMore": "Selengkapnya",
+        "verify": "Verifikasi"
+      },
+
+      "tabs": {
+        "standards": {
+          "label": "Rantai Dingin",
+          "badge": "Penyimpanan",
+          "title": "Rantai dingin terjaga",
+          "description": "Prosedur chilling dan freezing diterapkan dengan benar untuk menjaga tuna pada suhu stabil sehingga rasa dan umur simpan tetap terlindungi.",
+          "imageAlt": "Penyimpanan tuna di cold storage"
+        },
+
+        "certifications": {
+          "label": "Penanganan",
+          "badge": "Proses",
+          "title": "Penanganan hati-hati dari pendaratan hingga proses",
+          "description": "Setiap tuna ditangani segera setelah pendaratan dan dijaga pada suhu terkontrol untuk mempertahankan kesegaran, warna, dan tekstur.",
+          "imageAlt": "Proses penanganan tuna"
+        },
+
+        "quality": {
+          "label": "Kualitas",
+          "badge": "Kesegaran",
+          "title": "Kualitas produk yang konsisten",
+          "description": "Kami memeriksa setiap ikan berdasarkan tampilan, kekenyalan, dan kondisi untuk memastikan daging bersih dan grading yang konsisten pada semua spesies tuna.",
+          "imageAlt": "Pemeriksaan kualitas tuna"
+        }
+      }
+    },
+    "cta-section": {
+      "title": "Hubungi Kami",
+      "description": "Hubungi kami untuk informasi lebih lanjut mengenai produk tuna kami, ketersediaan, dan spesifikasi.",
+      "buttons": {
+        "inquire": "Ajukan Permintaan",
+        "download": "Unduh"
+      },
+      "imageAlt": "Photo"
+    }
   }
 }

@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import React from "react";
 
@@ -25,14 +26,13 @@ const PRODUCTS = [
 ];
 
 const CatalogSection = () => {
+  const t = useTranslations("ProductsPage.catalog-section");
   return (
     <section className="px-5 md:px-16 py-16 sm:py-28">
       <div className="text-center mb-10 sm:mb-12">
-        <p className="font-semibold mb-3">Products</p>
-        <h2 className="text-3xl sm:text-4xl">Our product catalog</h2>
-        <p className="mt-4 text-gray-600 sm:text-lg">
-          Selected seafood products ready for distribution to your market.
-        </p>
+        <p className="font-semibold mb-3">{t("tag")}</p>
+        <h2 className="text-3xl sm:text-4xl">{t("title")}</h2>
+        <p className="mt-4 text-gray-600 sm:text-lg">{t("description")}</p>
       </div>
       <div className="grid gap-8 xs:grid-cols-2 md:grid-cols-3">
         {PRODUCTS.map((item, idx) => (

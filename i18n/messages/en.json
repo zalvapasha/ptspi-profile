@@ -108,5 +108,73 @@
       },
       "imageAlt": "Photo"
     }
+  },
+  "ProductsPage": {
+    "hero-section": {
+      "title": "Fresh Selection",
+      "description": "A curated selection of premium tuna sourced from Kepulauan Sula. We currently specialize exclusively in tuna species, handled with care to preserve freshness, texture, and natural flavor.",
+      "imageAlt": "Tuna products from PT Sanana Pelangi"
+    },
+    "catalog-section": {
+      "tag": "Products",
+      "title": "Our product catalog",
+      "description": "Carefully prepared tuna products ready for distribution to restaurants, retailers, and international buyers."
+    },
+    "product-specs-section": {
+      "title": "Detailed specifications for premium selections",
+      "description": "Technical details for our tuna products, including handling methods, condition, and quality characteristics. Every product is processed under strict temperature control to preserve freshness, natural color, and texture.",
+      "buttons": {
+        "learnMore": "Learn more",
+        "download": "Download"
+      },
+      "imageAlt": "Photo"
+    },
+    "quality-section": {
+      "badge": "Quality",
+      "title": "Our processing and handling",
+      "description": "Our tuna is received from local fishing areas and handled through controlled cleaning, grading, and storage procedures. Proper temperature management is maintained during processing to help preserve freshness and product condition.",
+
+      "buttons": {
+        "discover": "Discover",
+        "details": "Details",
+        "learnMore": "Learn more",
+        "verify": "Verify"
+      },
+
+      "tabs": {
+        "standards": {
+          "label": "Cold Chain",
+          "badge": "Storage",
+          "title": "Maintained cold chain",
+          "description": "Proper chilling and freezing procedures are applied to keep the tuna at stable temperatures, protecting flavor and shelf life.",
+          "imageAlt": "Cold storage tuna handling"
+        },
+
+        "certifications": {
+          "label": "Handling",
+          "badge": "Process",
+          "title": "Careful handling from catch to processing",
+          "description": "Each tuna is handled immediately after landing and maintained under controlled temperatures to preserve freshness, color, and texture.",
+          "imageAlt": "Tuna handling process"
+        },
+
+        "quality": {
+          "label": "Quality",
+          "badge": "Freshness",
+          "title": "Consistent product quality",
+          "description": "We inspect every fish for appearance, firmness, and condition to ensure clean meat and reliable grading across all tuna species.",
+          "imageAlt": "Quality inspection of tuna"
+        }
+      }
+    },
+    "cta-section": {
+      "title": "Contact Us",
+      "description": "Contact us for more information about our tuna products, availability, and specifications.",
+      "buttons": {
+        "inquire": "Inquire",
+        "download": "Download"
+      },
+      "imageAlt": "Photo"
+    }
   }
 }
