@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 
 const HeaderSection = () => {
-  const t = useTranslations("ProductsPage.hero-section");
+  const t = useTranslations("ProductsPage.header-section");
   return (
     <section className="h-[50vh] relative flex items-center justify-center">
       {/* Background Image */}

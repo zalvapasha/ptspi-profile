@@ -112,7 +112,7 @@
     }
   },
   "ProductsPage": {
-    "hero-section": {
+    "header-section": {
       "title": "Pilihan Segar",
       "description": "Pilihan tuna premium yang bersumber dari Kepulauan Sula. Saat ini kami berfokus pada spesies tuna dengan penanganan yang cermat untuk menjaga kesegaran, tekstur, dan cita rasa alami.",
       "imageAlt": "Produk tuna PT Sanana Pelangi"
@@ -177,6 +177,81 @@
         "download": "Unduh"
       },
       "imageAlt": "Photo"
+    }
+  },
+  "AboutPage": {
+    "header-section": {
+      "title": "Tentang PT Sanana Pelangi Indonesia",
+      "description": "Perusahaan perdagangan hasil laut terpercaya yang menyalurkan ikan premium dari perairan kaya Indonesia ke pasar global dengan ketelitian dan komitmen.",
+      "imageAlt": "Header"
+    },
+    "overview-section": {
+      "learnMore": "Selengkapnya",
+      "imageAlt": "Gambaran perusahaan",
+
+      "items": {
+        "company": {
+          "title": "Tentang Perusahaan",
+          "description": "PT Sanana Pelangi Indonesia adalah perusahaan penanganan dan pemasok tuna yang berbasis di Indonesia. Kami bekerja sama dengan nelayan lokal untuk mendapatkan tuna yellowfin, bigeye, dan albacore dari area penangkapan sekitar."
+        },
+        "operations": {
+          "title": "Operasional Kami",
+          "description": "Setelah pendaratan, tuna dibersihkan, dilakukan grading, dan disimpan pada suhu terkontrol. Kami menekankan praktik penanganan yang tepat untuk menjaga kondisi produk, warna, dan tekstur."
+        },
+        "approach": {
+          "title": "Pendekatan Kami",
+          "description": "Kami menekankan penanganan yang konsisten, sistem grading produk yang jelas, dan komunikasi transparan dengan pembeli. Tujuan kami adalah menyediakan produk tuna yang andal dengan kualitas yang dapat diandalkan."
+        }
+      }
+    },
+    "facilities-section": {
+      "badge": "Fasilitas",
+      "title": "Jaringan pengolahan dan distribusi kami",
+      "description": "Operasional kami berada di lokasi khusus yang mendukung penanganan dan penyimpanan produk tuna. Fasilitas ini menyediakan area kerja yang tertata serta penyimpanan dengan suhu terkontrol, sehingga kondisi produk dapat terjaga stabil sejak penerimaan hingga pengiriman.",
+
+      "buttons": {
+        "discover": "Lihat",
+        "details": "Detail",
+        "learnMore": "Pelajari lebih lanjut",
+        "verify": "Verifikasi"
+      },
+
+      "tabs": {
+        "facility": {
+          "label": "Fasilitas",
+          "badge": "Lokasi",
+          "title": "Fasilitas operasional",
+          "description": "Kami beroperasi dari lokasi kerja yang digunakan untuk penanganan dan persiapan produk tuna.",
+          "imageAlt": "Fasilitas pengolahan tuna"
+        },
+        "workspace": {
+          "label": "Area kerja",
+          "badge": "Area",
+          "title": "Area pengerjaan",
+          "description": "Area khusus tersedia untuk penanganan dan penataan produk.",
+          "imageAlt": "Area penanganan tuna"
+        },
+        "storage": {
+          "label": "Penyimpanan",
+          "badge": "Cold Storage",
+          "title": "Penyimpanan bersuhu terkontrol",
+          "description": "Cold storage digunakan untuk menjaga tuna pada kondisi suhu yang stabil.",
+          "imageAlt": "Cold storage untuk tuna"
+        }
+      }
+    }
+  },
+  "ContactUsPage": {
+    "inquire-section": {
+      "badge": "Hubungi",
+      "title": "Kontak Kami",
+      "description": "Kami menerima pertanyaan dan permintaan informasi produk dari Anda.",
+
+      "contact": {
+        "emailLabel": "Email kami",
+        "phoneLabel": "Telepon kami",
+        "addressLabel": "Alamat kami"
+      }
     }
   }
 }

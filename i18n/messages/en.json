@@ -110,7 +110,7 @@
     }
   },
   "ProductsPage": {
-    "hero-section": {
+    "header-section": {
       "title": "Fresh Selection",
       "description": "A curated selection of premium tuna sourced from Kepulauan Sula. We currently specialize exclusively in tuna species, handled with care to preserve freshness, texture, and natural flavor.",
       "imageAlt": "Tuna products from PT Sanana Pelangi"
@@ -175,6 +175,81 @@
         "download": "Download"
       },
       "imageAlt": "Photo"
+    }
+  },
+  "AboutPage": {
+    "header-section": {
+      "title": "About PT Sanana Pelangi Indonesia",
+      "description": "A trusted seafood trading company delivering premium fish from the rich waters of Indonesia to global markets with precision and commitment.",
+      "imageAlt": "Header"
+    },
+    "overview-section": {
+      "learnMore": "Learn more",
+      "imageAlt": "Company overview",
+
+      "items": {
+        "company": {
+          "title": "About the Company",
+          "description": "PT Sanana Pelangi Indonesia is a tuna handling and supply company based in Indonesia. We work with local fishing communities to source yellowfin, bigeye, and albacore tuna from nearby fishing grounds."
+        },
+        "operations": {
+          "title": "Our Operations",
+          "description": "After landing, the tuna is cleaned, graded, and stored under controlled temperatures. We focus on proper handling practices to maintain product condition, color, and texture."
+        },
+        "approach": {
+          "title": "Our Approach",
+          "description": "We emphasize consistent handling, clear product grading, and transparent communication with buyers. Our goal is to provide reliable tuna products with dependable quality."
+        }
+      }
+    },
+    "facilities-section": {
+      "badge": "Facilities",
+      "title": "Our processing and distribution network",
+      "description": "Our operations are based at a dedicated site supporting the handling and storage of tuna products. The facility provides organized working areas and temperature-controlled storage, allowing products to be maintained in stable condition from arrival to dispatch.",
+
+      "buttons": {
+        "discover": "Discover",
+        "details": "Details",
+        "learnMore": "Learn more",
+        "verify": "Verify"
+      },
+
+      "tabs": {
+        "facility": {
+          "label": "Facility",
+          "badge": "Site",
+          "title": "Operational facility",
+          "description": "We operate from a working site used for handling and preparing tuna products.",
+          "imageAlt": "Tuna processing facility"
+        },
+        "workspace": {
+          "label": "Workspace",
+          "badge": "Area",
+          "title": "Working areas",
+          "description": "Designated areas are available for product handling and organization.",
+          "imageAlt": "Tuna handling workspace"
+        },
+        "storage": {
+          "label": "Storage",
+          "badge": "Cold Storage",
+          "title": "Temperature-controlled storage",
+          "description": "Cold storage is used to keep tuna under stable temperature conditions.",
+          "imageAlt": "Cold storage for tuna"
+        }
+      }
+    }
+  },
+  "ContactUsPage": {
+    "inquire-section": {
+      "badge": "Connect",
+      "title": "Contact Us",
+      "description": "We welcome your questions and product inquiries.",
+
+      "contact": {
+        "emailLabel": "Our email",
+        "phoneLabel": "Our phone",
+        "addressLabel": "Our address"
+      }
     }
   }
 }
