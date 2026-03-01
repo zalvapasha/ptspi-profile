@@ -2,9 +2,9 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 const Catalog = [
-  { key: "yellowfin", img: "/images/image-placeholder.png" },
-  { key: "bigeye", img: "/images/image-placeholder.png" },
-  { key: "albacore", img: "/images/image-placeholder.png" },
+  { key: "yellowfin", img: "/images/fishes/yellowfin.webp" },
+  { key: "bigeye", img: "/images/fishes/bigeye.webp" },
+  { key: "albacore", img: "/images/fishes/albacore.webp" },
 ];
 
 const CatalogSection = () => {
@@ -36,7 +36,7 @@ const CatalogSection = () => {
                 src={fish.img}
                 alt="Photo"
                 fill
-                className="object-cover object-center"
+                className="object-cover object-left"
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
               />
             </div>

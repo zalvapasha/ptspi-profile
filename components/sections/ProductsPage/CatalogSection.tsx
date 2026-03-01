@@ -6,22 +6,22 @@ const PRODUCTS = [
   {
     title: "Tuna Saku",
     category: "Frozen",
-    src: "/images/products/tuna-saku-1.png",
+    src: "/images/products/tuna-saku-1.webp",
   },
   {
     title: "Tuna Steaks",
     category: "Frozen",
-    src: "/images/products/tuna-steaks-1.png",
+    src: "/images/products/tuna-steak-1.webp",
   },
   {
     title: "Tuna Cubes",
     category: "Frozen",
-    src: "/images/products/tuna-cubes-1.png",
+    src: "/images/products/tuna-cube-1.webp",
   },
   {
     title: "Tuna Strips",
     category: "Chilled",
-    src: "/images/products/tuna-strips-1.png",
+    src: "/images/products/tuna-strip-1.webp",
   },
 ];
 

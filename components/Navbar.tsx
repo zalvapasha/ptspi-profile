@@ -13,12 +13,13 @@ import {
   SheetTrigger,
 } from "./ui/sheet";
 import { IcMenu } from "@/assets/icons";
-import {useTranslations} from 'next-intl';
-import {Link, useRouter} from '@/i18n/routing';
+import { useTranslations } from "next-intl";
+import { Link, useRouter } from "@/i18n/routing";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const Navbar = () => {
-  const t = useTranslations('Navbar');
-  
+  const t = useTranslations("Navbar");
+
   const [isScrolled, setIsScrolled] = useState(false);
 
   const router = useRouter();
@@ -52,15 +53,16 @@ const Navbar = () => {
           <h1 className="text-2xl font-bold">SananaPelangi</h1>
         </Link>
         <div className="hidden sm:flex items-center gap-8 md:text-lg ">
-          <Link href="/products">{t('products')}</Link>
-          <Link href="/about">{t('about-us')}</Link>
+          <Link href="/products">{t("products")}</Link>
+          <Link href="/about">{t("about-us")}</Link>
           <Button
             size="lg"
             onClick={() => router.push("/contact-us")}
             className="text-lg"
           >
-            {t('contact-us')}
+            {t("contact-us")}
           </Button>
+          <LanguageSwitcher />
         </div>
         <div className="flex sm:hidden">
           <Sheet>
@@ -74,10 +76,10 @@ const Navbar = () => {
               </SheetHeader>
               <div className="grid flex-1 auto-rows-min gap-6 px-4 mt-8">
                 <Link href="/products" className="text-lg">
-                  {t('products')}
+                  {t("products")}
                 </Link>
                 <Link href="/about" className="text-lg">
-                  {t('about-us')}
+                  {t("about-us")}
                 </Link>
                 <Link href="/certificates" className="text-lg">
                   Certificates
@@ -85,13 +87,17 @@ const Navbar = () => {
               </div>
               <SheetFooter>
                 <SheetClose asChild>
-                  <Button
-                    size="lg"
-                    onClick={() => router.push("/contact-us")}
-                    className="w-full text-lg"
-                  >
-                    {t('contact-us')}
-                  </Button>
+                  <div className="flex flex-col space-y-2 items-end  w-full">
+                    <LanguageSwitcher />
+
+                    <Button
+                      size="lg"
+                      onClick={() => router.push("/contact-us")}
+                      className="w-full text-lg"
+                    >
+                      {t("contact-us")}
+                    </Button>
+                  </div>
                 </SheetClose>
               </SheetFooter>
             </SheetContent>
