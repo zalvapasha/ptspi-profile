@@ -28,7 +28,14 @@ const InquireSection = () => {
           </div>
           <div className="flex items-center gap-3">
             <IcPhone />
-            <span className="underline">+1 (555) 000-0000</span>
+            <a
+              href="tel:+6282298186622"
+              aria-label="Our phone"
+              title="Our phone"
+              className="transition-colors underline duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
+            >
+              +62 (822) 9818-6622
+            </a>
           </div>
           <div className="flex items-center gap-3">
             <IcMapPin />
