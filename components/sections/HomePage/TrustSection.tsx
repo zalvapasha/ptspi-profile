@@ -5,9 +5,9 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 
 const TABS_CONTENT = [
-  { key: "certifications", image: "/images/image-placeholder.png" },
-  { key: "quality", image: "/images/image-placeholder.png" },
-  { key: "standards", image: "/images/image-placeholder.png" },
+  { key: "certifications", image: "/images/rooms/processing-2.webp" },
+  { key: "quality", image: "/images/rooms/processing-3.webp" },
+  { key: "standards", image: "/images/rooms/recieve-2.webp" },
 ];
 
 const TrustSection = () => {

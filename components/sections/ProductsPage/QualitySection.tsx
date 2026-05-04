@@ -7,15 +7,15 @@ import { useTranslations } from "next-intl";
 const TABS_CONTENT = [
   {
     value: "standards",
-    image: "/images/image-placeholder.png",
+    image: "/images/rooms/coldstore-1.webp",
   },
   {
     value: "certifications",
-    image: "/images/image-placeholder.png",
+    image: "/images/rooms/coldstore-2.webp",
   },
   {
     value: "quality",
-    image: "/images/image-placeholder.png",
+    image: "/images/rooms/coldstore-3.webp",
   },
 ];
 

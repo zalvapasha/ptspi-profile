@@ -19,7 +19,7 @@ const CTASection = () => {
       </section>
       <div className="relative aspect-video max-h-[500px] w-full">
         <Image
-          src="/images/image-placeholder.png"
+          src="/images/header-about.webp"
           alt={t("imageAlt")}
           fill
           className="object-cover object-center"

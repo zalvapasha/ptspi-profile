@@ -24,7 +24,7 @@ const CommitmentSection = () => {
       </div>
       <div className="relative aspect-square w-full sm:w-1/2">
         <Image
-          src="/images/image-placeholder.png"
+          src="/images/fishing-1.webp"
           alt={t("imageAlt")}
           fill
           className="object-cover object-center"

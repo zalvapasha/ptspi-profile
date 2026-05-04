@@ -17,9 +17,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sanana Pelangi Indonesia",
+  title: "Sula Seafood Indonesia",
   description:
-    "Sanana Pelangi Indonesia delivers premium, sustainably sourced seafood with a commitment to quality and international standards. Explore our expert seafood trading, distribution, and world-class service.",
+    "Sula Seafood Indonesia delivers premium, sustainably sourced seafood with a commitment to quality and international standards. Explore our expert seafood trading, distribution, and world-class service.",
 };
 
 export function generateStaticParams() {

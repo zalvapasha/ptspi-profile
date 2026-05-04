@@ -15,7 +15,7 @@
     "address-label": "Address:",
     "social-title": "Social",
     "social-description": "Follow our journey as we grow Indonesia's seafood exports and strengthen partnerships across the globe.",
-    "copyright": "© Copyright 2026 PT Sanana Pelangi. All rights reserved.",
+    "copyright": "© Copyright 2026 PT Sula Seafood Indonesia. All rights reserved.",
     "links": {
       "products": "Products",
       "about": "About",
@@ -113,7 +113,7 @@
     "header-section": {
       "title": "Fresh Selection",
       "description": "A curated selection of premium tuna sourced from Kepulauan Sula. We currently specialize exclusively in tuna species, handled with care to preserve freshness, texture, and natural flavor.",
-      "imageAlt": "Tuna products from PT Sanana Pelangi"
+      "imageAlt": "Tuna products from PT Sula Seafood Indonesia"
     },
     "catalog-section": {
       "tag": "Products",
@@ -179,7 +179,7 @@
   },
   "AboutPage": {
     "header-section": {
-      "title": "About PT Sanana Pelangi Indonesia",
+      "title": "About PT Sula Seafood Indonesia",
       "description": "A trusted seafood trading company delivering premium fish from the rich waters of Indonesia to global markets with precision and commitment.",
       "imageAlt": "Header"
     },
@@ -190,7 +190,7 @@
       "items": {
         "company": {
           "title": "About the Company",
-          "description": "PT Sanana Pelangi Indonesia is a tuna handling and supply company based in Indonesia. We work with local fishing communities to source yellowfin, bigeye, and albacore tuna from nearby fishing grounds."
+          "description": "PT Sula Seafood Indonesia is a tuna handling and supply company based in Indonesia. We work with local fishing communities to source yellowfin, bigeye, and albacore tuna from nearby fishing grounds."
         },
         "operations": {
           "title": "Our Operations",

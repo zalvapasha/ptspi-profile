@@ -4,6 +4,11 @@ import React from "react";
 
 const PRODUCTS = [
   {
+    title: "Tuna Loin",
+    category: "Frozen",
+    src: "/images/products/tuna-loin-1.webp",
+  },
+  {
     title: "Tuna Saku",
     category: "Frozen",
     src: "/images/products/tuna-saku-1.webp",
@@ -14,14 +19,14 @@ const PRODUCTS = [
     src: "/images/products/tuna-steak-1.webp",
   },
   {
+    title: "Tuna Strips",
+    category: "Frozen",
+    src: "/images/products/tuna-strip-1.webp",
+  },
+  {
     title: "Tuna Cubes",
     category: "Frozen",
     src: "/images/products/tuna-cube-1.webp",
-  },
-  {
-    title: "Tuna Strips",
-    category: "Chilled",
-    src: "/images/products/tuna-strip-1.webp",
   },
 ];
 

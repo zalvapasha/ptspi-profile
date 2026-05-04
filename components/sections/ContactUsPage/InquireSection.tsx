@@ -18,12 +18,12 @@ const InquireSection = () => {
           <div className="flex items-center gap-3">
             <IcMail />
             <a
-              href="mailto:hello@sananapelangi.com"
+              href="mailto:info@sulaseafood.id"
               aria-label={t("contact.emailLabel")}
               title={t("contact.emailLabel")}
               className="underline"
             >
-              hello@sananapelangi.com
+              info@sulaseafood.id
             </a>
           </div>
           <div className="flex items-center gap-3">

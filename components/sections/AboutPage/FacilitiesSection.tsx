@@ -5,9 +5,9 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 
 const TABS_CONTENT = [
-  { value: "facility", image: "/images/image-placeholder.png" },
-  { value: "workspace", image: "/images/image-placeholder.png" },
-  { value: "storage", image: "/images/image-placeholder.png" },
+  { value: "facility", image: "/images/rooms/processing-1.webp" },
+  { value: "workspace", image: "/images/rooms/recieve-2.webp" },
+  { value: "storage", image: "/images/rooms/coldstore-3.webp" },
 ];
 
 const FacilitiesSection = () => {

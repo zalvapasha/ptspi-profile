@@ -20,7 +20,7 @@ export default function LanguageSwitcher() {
   };
 
   return (
-    <div className="flex items-center w-fit  rounded-md border overflow-hidden select-none">
+    <div className="flex items-center w-fit  rounded-md overflow-hidden select-none">
       {/* EN */}
       <button
         type="button"
@@ -29,7 +29,7 @@ export default function LanguageSwitcher() {
         className={`px-3 py-1.5 text-sm font-semibold transition-colors cursor-pointer
         ${
           locale === "en"
-            ? "bg-black text-white"
+            ? "bg-blue-900 text-white"
             : "bg-white text-black hover:bg-gray-100"
         }`}
       >
@@ -44,7 +44,7 @@ export default function LanguageSwitcher() {
         className={`px-3 py-1.5 text-sm font-semibold transition-colors cursor-pointer
         ${
           locale === "id"
-            ? "bg-black text-white"
+            ? "bg-blue-900 text-white"
             : "bg-white text-black hover:bg-gray-100"
         }`}
       >
