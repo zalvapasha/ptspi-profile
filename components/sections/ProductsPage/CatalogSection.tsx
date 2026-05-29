@@ -6,27 +6,32 @@ const PRODUCTS = [
   {
     title: "Tuna Loin",
     category: "Frozen",
-    src: "/images/products/tuna-loin-1.webp",
+    src: "/images/products/tuna-loin-2.webp",
   },
   {
     title: "Tuna Saku",
     category: "Frozen",
-    src: "/images/products/tuna-saku-1.webp",
+    src: "/images/products/tuna-saku-2.webp",
   },
   {
     title: "Tuna Steaks",
     category: "Frozen",
-    src: "/images/products/tuna-steak-1.webp",
+    src: "/images/products/tuna-steak-2.webp",
   },
   {
     title: "Tuna Strips",
     category: "Frozen",
-    src: "/images/products/tuna-strip-1.webp",
+    src: "/images/products/tuna-strip-2.webp",
   },
   {
     title: "Tuna Cubes",
     category: "Frozen",
-    src: "/images/products/tuna-cube-1.webp",
+    src: "/images/products/tuna-cube-2.webp",
+  },
+  {
+    title: "Tuna Ground Meat",
+    category: "Frozen",
+    src: "/images/products/tuna-gm-1.webp",
   },
 ];
 

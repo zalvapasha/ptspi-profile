@@ -211,32 +211,29 @@
 
       "buttons": {
         "discover": "Lihat",
-        "details": "Detail",
-        "learnMore": "Pelajari lebih lanjut",
-        "verify": "Verifikasi"
+        "details": "Detail"
       },
 
-      "tabs": {
-        "facility": {
-          "label": "Fasilitas",
-          "badge": "Lokasi",
-          "title": "Fasilitas operasional",
-          "description": "Kami beroperasi dari lokasi kerja yang digunakan untuk penanganan dan persiapan produk tuna.",
-          "imageAlt": "Fasilitas pengolahan tuna"
+      "gallery": {
+        "receive": {
+          "category": "Penerimaan",
+          "title": "Receive",
+          "imageAlt": "Area penerimaan tuna masuk"
         },
-        "workspace": {
-          "label": "Area kerja",
-          "badge": "Area",
-          "title": "Area pengerjaan",
-          "description": "Area khusus tersedia untuk penanganan dan penataan produk.",
-          "imageAlt": "Area penanganan tuna"
+        "coldStorage": {
+          "category": "Cold storage",
+          "title": "Cold Storage",
+          "imageAlt": "Ruang cold storage untuk produk tuna"
         },
-        "storage": {
-          "label": "Penyimpanan",
-          "badge": "Cold Storage",
-          "title": "Penyimpanan bersuhu terkontrol",
-          "description": "Cold storage digunakan untuk menjaga tuna pada kondisi suhu yang stabil.",
-          "imageAlt": "Cold storage untuk tuna"
+        "coProcessed": {
+          "category": "Pengolahan",
+          "title": "CO Processed",
+          "imageAlt": "Area penanganan tuna CO processed"
+        },
+        "metalDetector": {
+          "category": "Kontrol kualitas",
+          "title": "Metal Detector",
+          "imageAlt": "Lini inspeksi metal detector"
         }
       }
     }

@@ -1,14 +1,14 @@
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
 import React from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
-const TABS_CONTENT = [
-  { value: "facility", image: "/images/rooms/processing-1.webp" },
-  { value: "workspace", image: "/images/rooms/recieve-2.webp" },
-  { value: "storage", image: "/images/rooms/coldstore-3.webp" },
-];
+const GALLERY_ITEMS = [
+  { key: "receive", image: "/images/rooms/recieve-2.webp" },
+  { key: "coldStorage", image: "/images/rooms/coldstore-3.webp" },
+  { key: "coProcessed", image: "/images/rooms/rco-1.webp" },
+  { key: "metalDetector", image: "/images/rooms/metal-detector.webp" },
+] as const;
 
 const FacilitiesSection = () => {
   const t = useTranslations("AboutPage.facilities-section");
@@ -29,55 +29,30 @@ const FacilitiesSection = () => {
           </Button>
         </div>
       </div>
-      <div className="w-full flex justify-center mt-10">
-        <div className="flex flex-col items-center w-full">
-          <Tabs defaultValue={TABS_CONTENT[0].value} className="w-full">
-            <div className="flex justify-center w-full mb-12 sm:mb-16">
-              <TabsList className="w-full flex max-w-80 ">
-                {TABS_CONTENT.map((tab) => (
-                  <TabsTrigger key={tab.value} value={tab.value}>
-                    {t(`tabs.${tab.value}.label`)}
-                  </TabsTrigger>
-                ))}
-              </TabsList>
-            </div>
-            {TABS_CONTENT.map((tab) => (
-              <TabsContent key={tab.value} value={tab.value}>
-                <section className="flex flex-col sm:flex-row gap-12 sm:gap-16">
-                  <div className="flex flex-col justify-center w-full sm:w-1/2">
-                    <p className="mb-3 sm:mb-3.5 md:mb-4">
-                      {t(`tabs.${tab.value}.badge`)}
-                    </p>
-                    <h2 className="mb-5 sm:mb-5.5 md:mb-6 text-3xl sm:text-4xl">
-                      {t(`tabs.${tab.value}.title`)}
-                    </h2>
-                    <p className="mb-5 sm:mb-5.5 md:mb-6 sm:text-lg">
-                      {t(`tabs.${tab.value}.description`)}
-                    </p>
-                    <div className=" flex flex-wrap items-center gap-4 ">
-                      <Button
-                        title={t("buttons.learnMore")}
-                        variant="secondary"
-                      >
-                        {t("buttons.learnMore")}
-                      </Button>
-                      <Button title={t("buttons.verify")} variant="link">
-                        {t("buttons.verify")}
-                      </Button>
-                    </div>
-                  </div>
-                  <div className="relative aspect-square w-full sm:w-1/2">
-                    <Image
-                      src={tab.image}
-                      alt={t(`tabs.${tab.value}.label`)}
-                      fill
-                      className="object-cover object-center"
-                    />
-                  </div>
-                </section>
-              </TabsContent>
-            ))}
-          </Tabs>
+      <div className="mt-12 sm:mt-16 lg:mt-20 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3 lg:gap-8">
+          {GALLERY_ITEMS.map((item) => (
+            <figure
+              key={item.key}
+              className="group relative aspect-[4/3] w-full overflow-hidden"
+            >
+              <Image
+                src={item.image}
+                alt={t(`gallery.${item.key}.imageAlt`)}
+                fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                className="object-cover object-center transition-transform duration-300 group-hover:scale-105"
+              />
+              <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent px-4 pb-4 pt-12 text-white">
+                <p className="text-xs font-medium uppercase tracking-wide text-white/80">
+                  {t(`gallery.${item.key}.category`)}
+                </p>
+                <h3 className="mt-1 text-lg font-semibold sm:text-xl">
+                  {t(`gallery.${item.key}.title`)}
+                </h3>
+              </figcaption>
+            </figure>
+          ))}
         </div>
       </div>
     </section>

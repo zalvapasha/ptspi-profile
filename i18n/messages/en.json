@@ -209,32 +209,29 @@
 
       "buttons": {
         "discover": "Discover",
-        "details": "Details",
-        "learnMore": "Learn more",
-        "verify": "Verify"
+        "details": "Details"
       },
 
-      "tabs": {
-        "facility": {
-          "label": "Facility",
-          "badge": "Site",
-          "title": "Operational facility",
-          "description": "We operate from a working site used for handling and preparing tuna products.",
-          "imageAlt": "Tuna processing facility"
+      "gallery": {
+        "receive": {
+          "category": "Receiving",
+          "title": "Receive",
+          "imageAlt": "Receiving area for incoming tuna"
         },
-        "workspace": {
-          "label": "Workspace",
-          "badge": "Area",
-          "title": "Working areas",
-          "description": "Designated areas are available for product handling and organization.",
-          "imageAlt": "Tuna handling workspace"
+        "coldStorage": {
+          "category": "Cold storage",
+          "title": "Cold Storage",
+          "imageAlt": "Cold storage room for tuna products"
         },
-        "storage": {
-          "label": "Storage",
-          "badge": "Cold Storage",
-          "title": "Temperature-controlled storage",
-          "description": "Cold storage is used to keep tuna under stable temperature conditions.",
-          "imageAlt": "Cold storage for tuna"
+        "coProcessed": {
+          "category": "Processing",
+          "title": "CO Processed",
+          "imageAlt": "CO processed tuna handling area"
+        },
+        "metalDetector": {
+          "category": "Quality control",
+          "title": "Metal Detector",
+          "imageAlt": "Metal detector inspection line"
         }
       }
     }
